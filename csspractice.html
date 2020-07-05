@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            width:99%;
+        }
+
+        div h1 {
+            font-weight:bold;
+            font-size:40px;
+        }
+
+        #header {
+
+            background-color:bisque;
+            border:5px solid black;
+            text-align:center;
+        }
+
+        #wrap {
+
+            background-color:burlywood;
+            text-align:center;
+            border:5px solid black;
+            overflow:hidden;
+        }
+
+        #content {
+            text-align:center;
+            margin:0 0 0 300px;
+            float:left;
+        }
+
+        ul > li {
+            list-style:none;
+            font-size:20px;
+            font-weight:bold;
+            color:saddlebrown;
+        }
+
+        li > a {
+            color:saddlebrown;
+        }
+
+        ul > li:nth-child(2n+1) {
+            background-color:gray;
+        }
+        ul > li:nth-child(2n) {
+            background-color:darkgray;
+        }
+
+        ul > li:first-child {
+            border-radius:10px 10px 0 0;
+        }
+
+        ul > li:last-child {
+            border-radius:0 0 10px 10px;
+        }
+
+        li:hover {
+            color:darkolivegreen;
+        }
+
+        #userinput {
+            float:left;
+        }
+
+        #userinput input {
+            float:right;
+        }
+
+        input[type=text] {
+            color:green;
+        }
+
+        input[type=tel] {
+            color:red;
+        }
+
+        input:focus {
+            boder:2px solid #ff0000;
+            padding:5px
+        }
+
+        input:enabled {
+            color:black;
+            font-weight:bold;
+        }
+
+        input:disabled {
+            color:gray;
+        }
+
+        .line1:first-letter, .line2:first-letter {
+            font-size:2em;
+        }
+
+        .line1, .line2 {
+            color:brown;
+        }
+
+        .line1:first-line, .line2:first-line {
+            color:black;
+        }
+
+        #sidebanner {
+            margin:0 100px 0 0;
+            float:right;
+            text-align:center;
+        }
+
+        #footer {
+            color:black;
+            background-color:bisque;
+            border:5px solid black;
+            text-align:center;
+        }
+
+        #footer .googlelink a:after {
+            content:' - ' attr(href);
+        }
+
+        .googlelink a {
+            color:deeppink;
+            font-size:30px;
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>HEADER</h1>
+    </div>
+
+    <div id="wrap">
+        <div id="content">
+            <h1>CONTENT</h1>
+            <ul>
+                <li class="menu1"><a href="#">menu 1</a></li>
+                <li class="menu2"><a href="#">menu 2</a></li>
+                <li class="menu3"><a href="#">menu 3</a></li>
+                <li class="menu4"><a href="#">menu 4</a></li>
+                <li class="menu5"><a href="#">menu 5</a></li>
+            </ul>
+            <br />
+
+            <div id="hello">
+                <p class="line1">
+                    hello hello hello hello<br />
+                    adfkasdf;alsdfa;sdkfja;lsdkfj;asdkfa;sdlfjk
+                </p>
+                <p class="line2">
+                    hello hello hello hello<br />
+                    asdfaksdf;alsjdf;alksjdf;askdfj;askfja;sdf;aslf
+                </p>
+            </div>
+
+            <br />
+            <h1>CREATE ID</h1>
+            <form id="userinput">
+            name: <input type="text" name="uname"/><br />
+            password: <input type="password" name="upw" value="1234" disabled="disabled"/><br />
+            phone: <input type="tel"/><br />
+            </form>
+        </div>
+
+        <div id="sidebanner">
+            <h1>CLICK BANNER</h1>
+            <a href="https://www.google.com/search?q=kanye+head&tbm=isch&ved=2ahUKEwjOvsmbwrbqAhWRSJQKHSjICB4Q2-cCegQIABAA&oq=kanye+head&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgQIIxAnOgQIABBDUOYIWIwQYJoRaABwAHgAgAGUAYgBgAWSAQMwLjWYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=1f0BX46AHJGR0QSokKPwAQ&bih=754&biw=1536&rlz=1C1SQJL_koKR903KR903"><img src="kanye.png" alt="kanye"></a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h1>FOOTER</h1>
+        <p class="googlelink"><a href="https://google.com" target = "_blank">Google</a></p>
+    </div>
+
+</body>
+</html>
