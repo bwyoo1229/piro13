@@ -65,14 +65,6 @@
             color:darkolivegreen;
         }
 
-        #userinput {
-            float:left;
-        }
-
-        #userinput input {
-            float:right;
-        }
-
         input[type=text] {
             color:green;
         }
@@ -93,6 +85,10 @@
 
         input:disabled {
             color:gray;
+        }
+
+        .signupbtn {
+        cursor: pointer;
         }
 
         .line1:first-letter, .line2:first-letter {
@@ -164,9 +160,10 @@
             <br />
             <h1>CREATE ID</h1>
             <form id="userinput">
-            name: <input type="text" name="uname"/><br />
-            password: <input type="password" name="upw" value="1234" disabled="disabled"/><br />
-            phone: <input type="tel"/><br />
+                name: <input type="text" name="uname"/><br />
+                password: <input type="password" name="upw" value="1234" disabled="disabled"/><br />
+                phone: <input type="tel"/><br />
+                <button class="signupbtn">Sign Up</button>
             </form>
         </div>
 
