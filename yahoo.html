@@ -3,8 +3,277 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        a {text-decoration: none}
+
+        header {
+            width: 100%;
+            margin: 0;
+            border: 1px solid #cccccc;
+        }
+
+        #header_nav {
+            font-size: 0.9em;
+            width: 100%;
+            overflow: hidden;
+            background-color: #2d1152;
+        }
+
+        #header_nav li {
+            color: #ffffff;
+            margin-right: 20px;
+            list-style: none;
+            float: left;
+        }
+
+        #header_nav .firefox {
+            float: right;
+            margin: 0 10px 0 0;
+        }
+        #header_nav .firefox a {
+            color: white;
+        }
+
+        #header_info {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        #header_info div {
+            margin-top: 10px;
+            float: left;
+        }
+
+        #header_info .logo img {
+            margin: 5px 24px 0 30px;
+            width: 155px;
+            height: auto;
+        }
+
+        #header_info .search input {
+            width: 400px;
+            font-size: 20px;
+            border: 1px sold dodgerblue;
+            margin-top: 7px;
+            padding: 5.5px;
+        }
+
+        #header_info .btn_search {
+            width: 124px;
+            height: 38.5px;
+            background-color: dodgerblue;
+            border-radius: 3px;
+            border: 0;
+        }
+
+        #header_info .txt_sw {
+            color: white;
+            font-size: 1.2em;
+        }
+
+        #header_info .service {
+            float: left;
+        }
+
+        #header_info .service li {
+            float: right;
+            list-style: none;
+            margin-right: 15px;
+        }
+
+        #content {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 85px;
+            overflow: hidden;
+        }
+
+        #content #main_nav {
+            width: 155px;
+            float: left;
+        }
+
+        #content #main_nav ul li {
+            list-style: none;
+            line-height: 35px;
+        }
+
+        #content #main {
+            width: 600px;
+            margin-left: 5px;
+            float: left;
+        }
+
+        #content #main div {
+            border: 1px solid #cccccc;
+            margin-top: 5px;
+        }
+
+        #content #main div:nth-child(1) {
+            width: 590px;
+            height: 300px;
+        }
+
+        #content #main div:nth-child(2) {
+            width: 590px;
+            height: 150px;
+        }
+
+        #content #main div:nth-child(3) {
+            width: 590px;
+            height: 50px;
+            background-color: #2d1152;
+        }
+
+        #content #main div:nth-child(3) ul {
+            margin: 12px 0 0 0;
+        }
+
+        #content #main div:nth-child(3) ul li {
+            list-style: none;
+            color: white;
+            float: left;
+            font-size: 1.1em;
+            margin-right: 23px;
+        }
+
+        #content #main div:nth-child(4) {
+            width: 590px;
+            height: 130px;
+        }
+
+        #content #main div:nth-child(5) {
+            width: 590px;
+            height: 130px;
+        }
+
+        #content #main div:nth-child(6) {
+            width: 590px;
+            height: 130px;
+        }
+
+        #content #main_ad {
+            width: 230px;
+            float: left;
+        }
+
+        #content #main_ad div {
+            border: 1px solid #cccccc;
+            margin-top: 5px;
+            height: 200px;
+        }
+
+        #content #main_ad div:nth-child(4) {
+            height: 303px;
+        }
+
+        footer {
+            width: 1000px;
+            height: 100px;
+            margin: 5px auto;
+            border: 1px solid #cccccc;
+            overflow: hidden;
+        }
+
+        footer p {
+            text-align: center;
+        }
+
+
+    </style>
 </head>
 <body>
-
+    <header>
+        <div id = "header_nav">
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Mail</li>
+                    <li>Answers</li>
+                    <li>Groups</li>
+                    <li>Flickr</li>
+                    <li>Tumblr</li>
+                    <li>Games</li>
+                    <li>Lives</li>
+                    <li>Screen</li>
+                    <li>Mobile</li>
+                    <li>More</li>
+                </ul>
+            </div>
+            <div class = "firefox">
+                <a href = "#none">Upgrade to the new FireFox>></a>
+            </div>
+        </div>
+        <div id = "header_info">
+            <div class = "logo"><img src = "yahoo_logo.png" alt = "Yahoo logo" /></div>
+            <div class = "search">
+                <input type = "text" />
+                <button type = "submit" class = "btn_search"><span class = "txt_sw">search web</span></button>
+            </div>
+            <div class = "service">
+                <ul>
+                    <li><a href = "#none">My Yahoo</a></li>
+                    <li><a href = "#none">Sign in</a></li>
+                    <li><a href = "#none">Mail</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id = "content">
+        <div id = "main_nav">
+            <ul>
+                <li>Mail</li>
+                <li>News</li>
+                <li>Sports</li>
+                <li>Finance</li>
+                <li>Weather</li>
+                <li>Autos</li>
+                <li>Screen</li>
+                <li>Dating</li>
+                <li>Shopping</li>
+                <li>Makers</li>
+                <li>Parenting</li>
+                <li>Health</li>
+                <li>Style</li>
+                <li>Beauty</li>
+                <li>Politics</li>
+                <li>Movies</li>
+                <li>Travel</li>
+                <li>Tech</li>
+                <li>TV</li>
+            </ul>
+        </div>
+        <div id = "main">
+            <div>main big banner</div>
+            <div>main slide banner</div>
+            <div>
+                <ul>
+                    <li>All Stories</li>
+                    <li>News</li>
+                    <li>Entertainment</li>
+                    <li>Sports</li>
+                    <li>Business</li>
+                    <li>More</li>
+                </ul>
+            </div>
+            <div>Main Topic</div>
+            <div>Main Topic</div>
+            <div>Main Topic</div>
+        </div>
+        <div id = "main_ad">
+            <div>ad_1</div>
+            <div>ad_2</div>
+            <div>ad_3</div>
+            <div>ad_4</div>
+        </div>
+    </div>
+    <footer>
+        <p>footer</p>
+    </footer>
 </body>
 </html>
