@@ -1,0 +1,63 @@
+a{
+            text-decoration: none; color:black;
+            font-family: "Poppins", sans-serif;
+        }
+        ul{
+            list-style: none;
+        }
+        #why_us {
+            background-color: #f3f5fa; padding:60px 0; overflow:hidden;
+        }
+        #why_us_content{
+            display:flex;
+            flex-direction: row-reverse;
+            margin-left: 60px; margin-right: 60px;
+        }
+        #why_us_content .why_us_image{
+            width:50%;
+        }
+        #why_us_content .why_us_title{
+            width:50%;
+        }
+        #why_us_content .why_us_image p{
+            text-align: center;}
+        #why_us_content .why_us_title h3:first-child {
+            font-weight: 100; font-size: 34px; color: #37517e;
+        }
+        #why_us_content .why_us_title h3:nth-child(2) {
+            font-weight: 900; font-size: 34px; color: #37517e;
+        }
+        #why_us_content .why_us_title p{
+            font-size: 15px; color:#848484; margin:0px 0px 16px;
+        }
+
+        #why_us_content .why_us_list{
+            margin: 8px auto;
+        }
+        #why_us_content .why_us_list ul{
+            padding:0;
+        }
+        #why_us_content .why_us_list li{
+            background-color:white; width:98%; margin-bottom: 16px;
+            border-radius: 6px;
+            padding-left: 20px; padding-top: 20px; padding-bottom: 20px;
+        }
+        #why_us_content .why_us_list li p{
+            display: none;
+        }
+        #why_us_content .why_us_list a{
+            color:black; font-size: 16px; font-weight: 500; line-height: 24px; padding-right: 30px;
+        }
+        #why_us_content .why_us_list a{
+            color: #37517e; display:block; font-weight: bold;
+        }
+        #why_us_content .why_us_list span{
+            color: #37517e; font-weight: 600; font-size: 18px; padding-right:10px;
+        }
+        #why_us_icon_real{
+            float: right;
+            color: black;
+        }
+        #why_us_content .why_us_list a:hover{
+            color: #47b2e4;
+        }
