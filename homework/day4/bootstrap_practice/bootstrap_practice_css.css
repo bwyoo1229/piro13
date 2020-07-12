@@ -1,0 +1,161 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    display: inline;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+    color: gray;
+    font-size: 0.8rem;
+    width: 7rem;
+    padding: 0.2rem 0;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+body {
+    overflow: scroll;
+}
+
+div p {
+    font-size: 0.8rem;
+}
+
+.main_container {
+    margin: 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-menu {
+    background-color: lightgray;
+}
+
+.dropdown-menu a {
+    color: dimgray;
+}
+
+.dropdown-menu a:hover {
+    color: white;
+    background-color: lightgray;
+}
+
+section {
+    flex: 4;
+}
+
+.banner {
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+.banner h3 {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner p {
+    margin-bottom: 1rem;
+}
+
+.card_container {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-color: transparent;
+}
+
+.card h5 {
+     font-weight: bold;
+}
+
+aside {
+    flex: 1;
+}
+
+.list_container {
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    background-color: white;
+    margin-left: 2rem;
+    min-width: 5rem;
+}
+
+.list_container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.list_container li {
+    border-top: 1px solid lightgray;
+    padding: 0.7rem 1rem;
+}
+
+.list_container a {
+    font-size: 0.8rem;
+    color: dodgerblue;
+    display: block;
+}
+
+.list_container a:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.footer_container {
+    bottom: 0;
+    height: 3rem;
+    margin: 0 6rem;
+}
+
+@media (max-width: 768px) {
+    .card_container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_container {
+        border-top: 1px solid lightgray;
+    }
+}
+
+@media (max-width: 500px) {
+    .main_container {
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    .list_container {
+        margin: 0;
+    }
+
+    .footer_container {
+        margin: 2rem;
+    }
+}
